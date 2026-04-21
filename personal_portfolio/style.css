@@ -1,0 +1,43 @@
+.navbar{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem 2rem;
+    background: rgba(6, 7, 15, 0.92);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(6, 182, 212, 0.15);
+    border-radius: 60px;
+    position:relative;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    color: #06b6d4;
+}
+
+.nav-links{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-links a{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    color: #06b6d4;
+}
+
+body{
+    background: #06b6d4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--text);
+}
